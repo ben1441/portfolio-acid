@@ -109,15 +109,15 @@ function App() {
 
                 <TerminalBlock title={`INIT_LOG :: ${mode}`} className="opacity-0 animate-[fadeIn_0.8s_ease-out_0.8s_forwards] hidden md:block">
                    <div className="space-y-1 text-xs text-muted">
-                     <p>> Initializing core systems...</p>
-                     <p>> Mode selected: <span className="text-acid uppercase">{mode}</span></p>
-                     <p>> Loading modules: 
+                     <p>&gt; Initializing core systems...</p>
+                     <p>&gt; Mode selected: <span className="text-acid uppercase">{mode}</span></p>
+                     <p>&gt; Loading modules:
                         {mode === 'frontend' && <span className="text-cyan-400"> React, Next.js, Tailwind</span>}
                         {mode === 'backend' && <span className="text-purple-400"> Node.js, Docker, MongoDB</span>}
                         {mode === 'all' && <span className="text-acid"> Node.js, React, Web3</span>}
                      </p>
-                     <p>> Connected to {mode === 'frontend' ? 'CDN Edge' : 'Mainnet RPC'}</p>
-                     <p>> Status: <span className="animate-pulse text-acid">Ready for deployment</span></p>
+                     <p>&gt; Connected to {mode === 'frontend' ? 'CDN Edge' : 'Mainnet RPC'}</p>
+                     <p>&gt; Status: <span className="animate-pulse text-acid">Ready for deployment</span></p>
                    </div>
                 </TerminalBlock>
               </div>
@@ -157,7 +157,7 @@ function App() {
                        <ul className="space-y-2 mb-6 text-muted text-sm leading-relaxed">
                          {exp.description.map((item, i) => (
                            <li key={i} className="flex items-start gap-3">
-                             <span className="text-acid/50 mt-1">>></span>
+                             <span className="text-acid/50 mt-1">&gt;&gt;</span>
                              {item}
                            </li>
                          ))}

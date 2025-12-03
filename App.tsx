@@ -100,7 +100,7 @@ function App() {
                       <Mail size={18} />
                       <span>CONTACT_ME</span>
                     </a>
-                    <a href="#" className="flex items-center gap-2 px-6 py-3 border border-border hover:border-acid text-muted hover:text-acid transition-colors">
+                    <a href="https://github.com/ben1441" target="_blank" rel="noreferrer" className="flex items-center gap-2 px-6 py-3 border border-border hover:border-acid text-muted hover:text-acid transition-colors">
                       <Github size={18} />
                       <span>GITHUB</span>
                     </a>
@@ -300,7 +300,7 @@ function App() {
                 <a href="mailto:manovah04@gmail.com" className="w-full md:w-auto px-8 py-4 bg-acid text-black font-bold text-lg uppercase tracking-wider hover:bg-white transition-colors">
                    Send Transmission
                 </a>
-                <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="w-full md:w-auto px-8 py-4 border border-border text-silver font-bold text-lg uppercase tracking-wider hover:border-acid hover:text-acid transition-colors">
+                <a href="https://www.linkedin.com/in/manovah-benny-70a29026b" target="_blank" rel="noreferrer" className="w-full md:w-auto px-8 py-4 border border-border text-silver font-bold text-lg uppercase tracking-wider hover:border-acid hover:text-acid transition-colors">
                    LinkedIn
                 </a>
              </div>
